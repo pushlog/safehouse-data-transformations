@@ -7,22 +7,14 @@ from datetime import datetime
 
 import pandas as pd
 from time import strptime
+import search_elastic as se
+
 # Initialized variables
 
 elasticdatetimecolumn = '_source.@timestamp'
 
-
-# Query date from elastic search and return a pandas dataframe
-command = r'''
-
-curl https://elasticsearch.blueteam.devwerx.org/domoticz-2018-03-19/_search?size=10 -u elastic:taiko7Ei
-
-'''
-output = subprocess.check_output(['bash','-c', command])
-
-string=output.decode("utf-8")
-
-data = json.loads(string)
+data = se.search_elastic('domoticz-2018-03-19')
+print(json.dumps(data, indent=4))
 
 df=json_normalize(data['hits']['hits'])
 
@@ -76,5 +68,3 @@ print(df3)
 #res['hits']['hits']
 #df = pd.concat(map(pd.DataFrame.from_dict, data), axis=1)['hits'].T
 #print(new.head())
-
-

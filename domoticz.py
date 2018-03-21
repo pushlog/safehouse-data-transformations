@@ -1,4 +1,6 @@
 
+
+
 import subprocess
 import json
 from pandas.io.json import json_normalize
@@ -31,18 +33,22 @@ totalHits=str(data['hits']['total'])
 print("Total Hits: ",totalHits )
 print("Total Recieved",len(df) ,'\n')
 
+
+# Find Datetime and make sortaable by dateime
+
+#  Get Date values
 df2=df['_id']
-
 df3 = df2.str.split(' ', expand=True)
+df4 = df3.ix[:, 1]
+df3.ix[:, 1]=df3.ix[:, 1].apply(lambda x: strptime(x,'%b').tm_mon)
 
-#df4 = df3.ix[:, 1]
 
-#df3.ix[:, 1]=df3.ix[:, 1].apply(lambda x: strptime(x,'%b').tm_mon)
 
-#df['time'] = pd.to_datetime(df['hour'].astype(int).astype(str)+':'+df['min'].astype(int).astype(str)+':'+df['sec'].astype(int).astype(str), format = '%H:%M:%S').dt.time
+df3['date'] = pd.to_datetime(df3.ix[:, 1].astype(int).astype(str)+'/'+df3.ix[:, 2].astype(int).astype(str)+'/'+df3.ix[:, 3].astype(int).astype(str) , format = '%m/%d/%Y').dt.date.astype(str)
+df3['time'] = df3.ix[:, 4].astype(str)
 
-#df3['time'] = pd.to_datetime(df3.ix[:, 1].astype(int).astype(str) , format = '%H').dt.time
 
+df3['datetime'] =  pd.to_datetime(df3['date'] + ' ' + df3['time'])
 
 # Convert timestamp to date time to sort by datetime
 #
@@ -53,8 +59,11 @@ df3 = df2.str.split(' ', expand=True)
 #
 #
 # #print(df2.dtype)
-summarizeDataset(df3)
-print(df3)
+#summarizeDataset(df2)
+print(df3['date'])
+print(df3['time'])
+print(df3['datetime'])
+#print(df3.dtypes)
 
 #print(df['DateTime'])
 #

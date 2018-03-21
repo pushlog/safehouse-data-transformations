@@ -9,9 +9,6 @@ import pandas as pd
 
 # Initialized variables
 
-
-
-
 import search_elastic as se
 
 # Initialized variables
@@ -20,7 +17,11 @@ elasticdatetimecolumn = '_source.@timestamp'
 
 data = se.search_elastic('auditbeat-6.2.2-2018.02.27')
 
-df=json_normalize(data['hits']['hits'])
+d = pd.DataFrame(json_normalize(data))
+print(pd.DataFrame.keys(d))
+
+df = pd.DataFrame(d['hits.hits'])
+print(df)
 
 totalHits=str(data['hits']['total'])
 
@@ -60,5 +61,3 @@ print(df.head())
 #res['hits']['hits']
 #df = pd.concat(map(pd.DataFrame.from_dict, data), axis=1)['hits'].T
 #print(new.head())
-
-

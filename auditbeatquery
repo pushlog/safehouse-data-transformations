@@ -9,20 +9,16 @@ import pandas as pd
 
 # Initialized variables
 
+
+
+
+import search_elastic as se
+
+# Initialized variables
+
 elasticdatetimecolumn = '_source.@timestamp'
 
-
-# Query date from elastic search and return a pandas dataframe
-command = r'''
-
-curl https://elasticsearch.blueteam.devwerx.org/auditbeat-6.2.2-2018.02.27/_search?size=10 -u elastic:taiko7Ei
-
-'''
-output = subprocess.check_output(['bash','-c', command])
-
-string=output.decode("utf-8")
-
-data = json.loads(string)
+data = se.search_elastic('auditbeat-6.2.2-2018.02.27')
 
 df=json_normalize(data['hits']['hits'])
 
@@ -41,7 +37,8 @@ df.sort_values(by=['DateTime'],inplace = True)
 
 
 #print(df2.dtype)
-summarizeDataset(df)
+#summarizeDataset(df)
+print(df.head())
 
 #print(df['DateTime'])
 #

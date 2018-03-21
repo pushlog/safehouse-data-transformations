@@ -16,7 +16,7 @@ import search_elastic as se
 elasticdatetimecolumn = '_source.@timestamp'
 
 data = se.search_elastic('domoticz-2018-03-19')
-print(json.dumps(data, indent=4))
+#print(json.dumps(data, indent=4))
 
 df=json_normalize(data['hits']['hits'])
 

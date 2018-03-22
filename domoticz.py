@@ -13,51 +13,59 @@ import search_elastic as se
 
 # Initialized variables
 
-elasticdatetimecolumn = '_source.@timestamp'
+elasticdatetimecolumn = '_id'
 
 data = se.search_elastic('domoticz-2018-03-19')
-#print(json.dumps(data, indent=4))
 
-df=json_normalize(data['hits']['hits'])
+# Store data to dataframe
+d = pd.DataFrame(json_normalize(data))
 
-totalHits=str(data['hits']['total'])
+# Number of transactions
 
-print("Total Hits: ",totalHits )
-print("Total Recieved",len(df) ,'\n')
+totalT=int(len(d))
+
+if totalT == 1:
+
+    df = json_normalize(d.ix[0, 'hits.hits'])
+else:
 
 
-# Find Datetime and make sortaable by dateime
+# Append hits to dataframe
+    df = pd.DataFrame([])
 
-#  Get Date values
-df2=df['_id']
+    for x in range( 0 , totalT - 1) :
+
+        ed=json_normalize(d.ix[x, 'hits.hits'] )
+        df = df.append(ed)
+
+# Garbarge collect dataframe
+del d
+
+# # Find Datetime and make dateime sortable
+df2=df[elasticdatetimecolumn]
 df3 = df2.str.split(' ', expand=True)
 df4 = df3.ix[:, 1]
 df3.ix[:, 1]=df3.ix[:, 1].apply(lambda x: strptime(x,'%b').tm_mon)
 
 
-
 df3['date'] = pd.to_datetime(df3.ix[:, 1].astype(int).astype(str)+'/'+df3.ix[:, 2].astype(int).astype(str)+'/'+df3.ix[:, 3].astype(int).astype(str) , format = '%m/%d/%Y').dt.date.astype(str)
 df3['time'] = df3.ix[:, 4].astype(str)
+df['datetime'] =  pd.to_datetime(df3['date'] + ' ' + df3['time'])
+df.sort_values(by=['datetime'],inplace = True)
+
+#Garbage collect dataframe
+del df2, df3, df4
+
+# Get Device name
+df['devicename']=df['_source.message'].str.split(' ', expand=True).ix[:, 0]
 
 
-df3['datetime'] =  pd.to_datetime(df3['date'] + ' ' + df3['time'])
+# #summarizeDataset(df2)
+print('\n',"Total Transactions:",totalT ,'\n')
+print("Total Rows:",len(df) ,'\n')
+print(df.head())
 
-# Convert timestamp to date time to sort by datetime
-#
-# df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
-#
-# df.sort_values(by=['DateTime'],inplace = True)
-#
-#
-#
-# #print(df2.dtype)
-#summarizeDataset(df2)
-print(df3['date'])
-print(df3['time'])
-print(df3['datetime'])
-#print(df3.dtypes)
 
-#print(df['DateTime'])
 #
 
 #df.to_csv("/home/david/Desktop/new.csv" , sep='\t' , index=False)
@@ -66,14 +74,3 @@ print(df3['datetime'])
 
 
 
-
-
-#
-#     df = json_normalize(item['hits']['hits'])
-
-#print(json_normalize(item['hits']['hits']))
-# new=json_normalize(data['responses'])
-# data1 = pd.read_json(string,typ='index')
-#res['hits']['hits']
-#df = pd.concat(map(pd.DataFrame.from_dict, data), axis=1)['hits'].T
-#print(new.head())

@@ -41,7 +41,9 @@ df.sort_values(by=['DateTime'],inplace = True)
 
 
 #print(df2.dtype)
-summarizeDataset(df)
+#summarizeDataset(df[0,:])
+print(string)
+print(df)
 
 #print(df['DateTime'])
 #

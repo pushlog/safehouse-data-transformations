@@ -30,7 +30,11 @@ body = {
 
 #body = {"query": {"range": {"timestamp": {"gte": "now-1d/d", "lt": "now/d"}}}}
 
-data = se.search_elastic('gammarf' )
+
+# Elasticsearch instance
+data = se.search_elastic('gammarf' , body )
+
+
 # Store data to dataframe
 d = pd.DataFrame(json_normalize(data))
 

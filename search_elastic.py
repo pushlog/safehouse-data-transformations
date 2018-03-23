@@ -1,5 +1,7 @@
 import json
 
+# Elastic Search
+
 def search_elastic(ix, query = None):
     from elasticsearch import Elasticsearch
     all_results = []
@@ -20,7 +22,7 @@ def search_elastic(ix, query = None):
         result = es.search(index=ix, size=n , body=body)
         return(result)
 
-    scan_es = es.search(index=ix, size=10000, scroll="30m" , body=body)
+    scan_es = es.search(index=ix, size=10000, scroll="60m" , body=body)
 
     # print("search: ", json.dumps(scan_es, indent=4))
 

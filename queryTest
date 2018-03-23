@@ -15,7 +15,7 @@ elasticdatetimecolumn = '_source.@timestamp'
 # Query date from elastic search and return a pandas dataframe
 command = r'''
 
-curl https://elasticsearch.blueteam.devwerx.org/auditbeat-6.2.2-2018.02.27/_search?size=10 -u elastic:taiko7Ei
+curl https://elasticsearch.blueteam.devwerx.org/auditbeat-6.2.2-2018.02.27/_search?size=5000 -u elastic:taiko7Ei
 
 '''
 output = subprocess.check_output(['bash','-c', command])

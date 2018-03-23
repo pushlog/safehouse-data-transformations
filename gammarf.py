@@ -13,7 +13,7 @@ import search_elastic as se
 
 # Initialized variables
 
-elasticdatetimecolumn = '_id'
+elasticdatetimecolumn = '_source.timestamp'
 
 # JSON Query
 
@@ -21,8 +21,8 @@ body = {
     "query": {
         "range" : {
             "timestamp" : {
-                "gte" : "now-1d/d",
-                "lt" :  "now/d"
+                "gte" : "now-3h",
+                #"lt" :  "now/d"
             }
         }
     }
@@ -62,28 +62,11 @@ else:
 
 # Garbarge collect dataframe
 del d
-#
-# # # Find Datetime and make dateime sortable
-# df2=df[elasticdatetimecolumn]
-# df3 = df2.str.split(' ', expand=True)
-# df4 = df3.ix[:, 1]
-# df3.ix[:, 1]=df3.ix[:, 1].apply(lambda x: strptime(x,'%b').tm_mon)
-#
-#
-# df3['date'] = pd.to_datetime(df3.ix[:, 1].astype(int).astype(str)+'/'+df3.ix[:, 2].astype(int).astype(str)+'/'+df3.ix[:, 3].astype(int).astype(str) , format = '%m/%d/%Y').dt.date.astype(str)
-# df3['time'] = df3.ix[:, 4].astype(str)
-# df['datetime'] =  pd.to_datetime(df3['date'] + ' ' + df3['time'])
-# df.sort_values(by=['datetime'],inplace = True)
-#
-# #Garbage collect dataframe
-# del df2, df3, df4
-#
-# # Get Device name
-# df['devicename']=df['_source.message'].str.split(' ', expand=True).ix[:, 0]
-#
-#
-# # #summarizeDataset(df2)
-# # View Meta Data
+
+
+df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
+df.sort_values(by=['DateTime'],inplace = True)
+
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')
 print(df.head())

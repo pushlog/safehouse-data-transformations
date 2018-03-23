@@ -39,16 +39,18 @@ from elasticsearch import Elasticsearch
 # #
 # # print("data: ", json.dumps(data, indent=4))
 
+#
+# es = Elasticsearch(['https://elastic:taiko7Ei@elasticsearch.blueteam.devwerx.org'])
+# doc = {
+#     'size' : 10000,
+#     'query': {
+#         'match_all' : {}
+#     }
+# }
+#
+# res = es.search(index="auditbeat-6.2.2-2018.02.27", body=doc,scroll='1m')
+# scroll = res['_scroll_id']
+# res2 = es.scroll(scroll_id = scroll, scroll = '3m')
+# print(res)
 
-es = Elasticsearch(['https://elastic:taiko7Ei@elasticsearch.blueteam.devwerx.org'])
-doc = {
-    'size' : 10000,
-    'query': {
-        'match_all' : {}
-    }
-}
-
-res = es.search(index="auditbeat-6.2.2-2018.02.27", body=doc,scroll='1m')
-scroll = res['_scroll_id']
-res2 = es.scroll(scroll_id = scroll, scroll = '3m')
-print(res)
+print(1/100)

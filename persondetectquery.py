@@ -15,8 +15,10 @@ import search_elastic as se
 
 elasticdatetimecolumn = '_source.DeviceTime'
 
-data = se.search_elastic('persondetect')
 #print(json.dumps(data, indent=4))
+
+
+data = se.search_elastic('persondetect')
 
 d = pd.DataFrame(json_normalize(data))
 
@@ -41,10 +43,19 @@ else:
 # Garbarge collect dataframe
 del d
 
-
+# Convert timestamp to date time to sort by datetime
 df['datetime'] =  pd.to_datetime(df[elasticdatetimecolumn] , unit='ms')
 df.sort_values(by=['datetime'],inplace = True,ascending=False)
 
+
+# Convert to EST
+df['datetime'] = df['datetime'].apply(lambda x: x.tz_localize('UTC').tz_convert('US/Eastern'))
+
+# df['EST'] = (df.datetime.dt.tz_localize('UTC')
+#                         .tz_convert('US/Eastern')
+#                         .strftime("%H:%M:%S"))
+
+# View Meta Data
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')
 print(df.head())

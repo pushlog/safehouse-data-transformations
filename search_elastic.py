@@ -1,21 +1,26 @@
 import json
 
-def search_elastic(ix):
+def search_elastic(ix, query = None):
     from elasticsearch import Elasticsearch
     all_results = []
 
     es = Elasticsearch(['https://elastic:taiko7Ei@elasticsearch.blueteam.devwerx.org'])
-    count_es = es.count(index=ix)
 
-    # print("count: ", json.dumps(count_es, indent=4))
+    if query is not None:
 
-    n = count_es['count']
+        body = query
+    else:
+        body = None
+
+    query_count = es.search(index=ix ,body=body,size=0)
+
+    n = query_count['hits']['total']
 
     if (n <= 10000):
-        result = es.search(index=ix, size=n)
+        result = es.search(index=ix, size=n , body=body)
         return(result)
 
-    scan_es = es.search(index=ix, size=10000, scroll="3m")
+    scan_es = es.search(index=ix, size=10000, scroll="30m" , body=body)
 
     # print("search: ", json.dumps(scan_es, indent=4))
 
@@ -24,11 +29,16 @@ def search_elastic(ix):
 
     # print("all_results: ", json.dumps(all_results))
 
+    count = 1
+    print(count)
+
     while (n > 0):
         n = n - 10000
-        result = es.scroll(scroll_id=sid, scroll="3m")
+        result = es.scroll(scroll_id=sid, scroll="60m")
 
         # print("result: ", json.dumps(result))
+        count = count + 1
+        print(count)
 
         all_results.append(result)
 

@@ -1,6 +1,3 @@
-
-
-
 import subprocess
 import json
 from pandas.io.json import json_normalize
@@ -13,7 +10,7 @@ import search_elastic as se
 
 # Initialized variables
 
-elasticdatetimecolumn = 'timestamp'
+elasticdatetimecolumn = '_source.timestamp'
 
 # JSON Query
 
@@ -65,8 +62,8 @@ else:
 del d
 
 
-#df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
-#df.sort_values(by=['DateTime'],inplace = True)
+# df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
+# df.sort_values(by=['DateTime'],inplace = True)
 
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')
@@ -78,6 +75,4 @@ print(df.head())
 # #df.to_csv("/home/david/Desktop/new.csv" , sep='\t' , index=False)
 #
 #
-
-
 

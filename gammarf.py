@@ -13,7 +13,7 @@ import search_elastic as se
 
 # Initialized variables
 
-elasticdatetimecolumn = '_source.timestamp'
+elasticdatetimecolumn = 'timestamp'
 
 # JSON Query
 
@@ -21,8 +21,8 @@ body = {
     "query": {
         "range" : {
             "timestamp" : {
-                "gte" : "now-3h",
-                #"lt" :  "now/d"
+                "gte" : "now-3d",
+                 "lt" :  "now/d"
             }
         }
     }
@@ -61,11 +61,12 @@ else:
         df = df.append(ed)
 
 # Garbarge collect dataframe
+
 del d
 
 
-df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
-df.sort_values(by=['DateTime'],inplace = True)
+#df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
+#df.sort_values(by=['DateTime'],inplace = True)
 
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')

@@ -10,15 +10,15 @@ import search_elastic as se
 
 # Initialized variables
 
-elasticdatetimecolumn = '_source.timestamp'
+elasticdatetimecolumn = '_source.@timestamp'
 
 # JSON Query
 
 body = {
     "query": {
         "range" : {
-            "timestamp" : {
-                "gte" : "now-4d",
+            "@timestamp" : {
+                "gte" : "now-1d",
                  "lt" :  "now/d"
             }
         }
@@ -29,11 +29,12 @@ body = {
 
 
 # Elasticsearch instance
-data = se.search_elastic('gammarf' , body )
+data = se.search_elastic('logstash*' , body )
 
 
 # Store data to dataframe
 d = pd.DataFrame(json_normalize(data))
+
 
 
 
@@ -62,14 +63,14 @@ else:
 #del d
 
 #
-# df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
-# df.sort_values(by=['DateTime'],inplace = True)
-
+df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
+df.sort_values(by=['DateTime'],inplace = True)
+#
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')
 print(df.head())
-#
-#
+
+
 # #
 #
 # #df.to_csv("/home/david/Desktop/new.csv" , sep='\t' , index=False)

@@ -15,6 +15,19 @@ import search_elastic as se
 
 elasticdatetimecolumn = '_id'
 
+
+# body = {
+#     "query": {
+#         "range" : {
+#             "_id" : {
+#                 "gte" : "now-3d",
+#                  "lt" :  "now/d"
+#             }
+#         }
+#     }
+# }
+#
+
 data = se.search_elastic('domoticz-2018-03-19')
 
 # Store data to dataframe

@@ -62,8 +62,8 @@ else:
 #del d
 
 #
-# df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
-# df.sort_values(by=['DateTime'],inplace = True)
+df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
+df.sort_values(by=['DateTime'],inplace = True)
 
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')

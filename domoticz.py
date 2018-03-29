@@ -15,23 +15,13 @@ import search_elastic as se
 
 elasticdatetimecolumn = '_id'
 
-
-# body = {
-#     "query": {
-#         "range" : {
-#             "_id" : {
-#                 "gte" : "now-3d",
-#                  "lt" :  "now/d"
-#             }
-#         }
-#     }
-# }
-#
-
-data = se.search_elastic('domoticz-2018-03-19')
+data = se.search_elastic('domoticz*')
 
 # Store data to dataframe
 d = pd.DataFrame(json_normalize(data))
+
+
+
 
 # Number of transactions
 
@@ -54,11 +44,16 @@ else:
 # Garbarge collect dataframe
 del d
 
+# Filter to date time values only
+df=df[df[elasticdatetimecolumn].str.contains("GMT")]
+
+
 # # Find Datetime and make dateime sortable
 df2=df[elasticdatetimecolumn]
 df3 = df2.str.split(' ', expand=True)
 df4 = df3.ix[:, 1]
 df3.ix[:, 1]=df3.ix[:, 1].apply(lambda x: strptime(x,'%b').tm_mon)
+
 
 
 df3['date'] = pd.to_datetime(df3.ix[:, 1].astype(int).astype(str)+'/'+df3.ix[:, 2].astype(int).astype(str)+'/'+df3.ix[:, 3].astype(int).astype(str) , format = '%m/%d/%Y').dt.date.astype(str)
@@ -82,7 +77,7 @@ print(df.head())
 
 #
 
-#df.to_csv("/home/david/Desktop/new.csv" , sep='\t' , index=False)
+df.to_csv("domoticz.csv" , index=False)
 
 
 

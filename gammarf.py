@@ -68,6 +68,7 @@ else:
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')
 print(df.head())
+df.to_csv("transaction_data.csv", index=False)
 #
 #
 # #
@@ -75,4 +76,3 @@ print(df.head())
 # #df.to_csv("/home/david/Desktop/new.csv" , sep='\t' , index=False)
 #
 #
-

@@ -1,9 +1,9 @@
-
 import subprocess
-import json
+import json, os, time
 from pandas.io.json import json_normalize
 from summarizeDataFrame import summarizeDataset
 from datetime import datetime
+import numpy as np
 import pandas as pd
 import search_elastic as se
 
@@ -12,51 +12,61 @@ import search_elastic as se
 elasticdatetimecolumn = '_source.@timestamp'
 
 
-# Query ElasticSearch with Scroll
-data = se.search_elastic('auditbeat-6.2.2-2018.02.27')
+total_row_count = 0
+
+def fetch_data():
+    global total_row_count
+
+    # Query ElasticSearch with Scroll
+    data = se.search_elastic('auditbeat-6.2.2-2018.02.27')
 
 
-# Store data to dataframe
-d = pd.DataFrame(json_normalize(data))
+    # Store data to dataframe
+    d = pd.DataFrame(json_normalize(data))
 
-# Number of transactions
+    # Number of transactions
+    totalT=int(len(d))
 
-totalT=int(len(d))
+    if totalT == 1:
+        df = json_normalize(d.ix[0, 'hits.hits'])
+    else:
 
-if totalT == 1:
+    # Append hits to dataframe
+        df = pd.DataFrame([])
+        for x in range( 0 , totalT - 1) :
+            ed=json_normalize(d.ix[x, 'hits.hits'] )
+            df = df.append(ed)
 
-    df = json_normalize(d.ix[0, 'hits.hits'])
-else:
+    #Garbage collect dataframe
+    del d
 
+    # Convert timestamp to date time to sort by datetime
+    df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
+    df.sort_values(by=['DateTime'],inplace = True)
 
-# Append hits to dataframe
-    df = pd.DataFrame([])
+    print('\n',"Total Transactions:",totalT ,'\n')
+    total_row_count += df.shape[0]
+    print("Total Rows:",total_row_count ,'\n')
 
-    for x in range( 0 , totalT - 1) :
+    ## Save data
+    colnames = df.columns.values.tolist()
 
-        ed=json_normalize(d.ix[x, 'hits.hits'] )
-        df = df.append(ed)
+    start_time_datasave = time.time()
+    # save column names
+    cols2save = os.path.join("data/raw","auditbeat_df_colnames.npy")
+    np.save(cols2save, colnames)
 
-#Garbage collect dataframe
-del d
+    file2save = os.path.join("data/raw","auditbeat_df_" + str(total_row_count) + ".npy")
+    np.save(file2save, df)
 
-# Convert timestamp to date time to sort by datetime
-df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
-df.sort_values(by=['DateTime'],inplace = True)
+    print("Time taken to save data (mins): ", (time.time() - start_time_datasave) / 60)
 
+    # #df.to_csv("/home/david/Desktop/new.csv" , sep='\t' , index=False)
+    #
+    #
 
+start_time = time.time()
+while total_row_count <= 100000:
+    fetch_data()
 
-# View Meta Data
-print('\n',"Total Transactions:",totalT ,'\n')
-print("Total Rows:",len(df) ,'\n')
-print(df.head())
-
-
-#summarizeDataset(df)
-
-#
-
-#df.to_csv("/home/david/Desktop/new.csv" , sep='\t' , index=False)
-
-
-
+print("Total Time taken in (mins): ", (time.time() - start_time) / 60)

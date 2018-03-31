@@ -31,7 +31,7 @@ body = {
 total_row_count = 0
 
 def fetch_data():
-    global total_row_count, gamma_df
+    global total_row_count
     # Elasticsearch instance
     data = se.search_elastic('gammarf' , body )
 
@@ -47,7 +47,7 @@ def fetch_data():
         # Append hits to dataframe
         df = pd.DataFrame([])
 
-        for x in range( 0 , totalT - 1):
+        for x in range(0, totalT - 1):
             ed=json_normalize(d.ix[x, 'hits.hits'] )
             df = df.append(ed)
 
@@ -60,11 +60,13 @@ def fetch_data():
     df.sort_values(by=['DateTime'],inplace = True)
 
     print('\n',"Total Transactions:",totalT ,'\n')
-    total_row_count = df.shape[0]
+    total_row_count += df.shape[0]
     print("Total Rows:",total_row_count ,'\n')
 
     ## Save data
     colnames = df.columns.values.tolist()
+
+    start_time_datasave = time.time()
 
     # save column names
     cols2save = os.path.join("data/raw","gamma_df_colnames.npy")
@@ -73,16 +75,15 @@ def fetch_data():
     file2save = os.path.join("data/raw","gamma_df_" + str(total_row_count) + ".npy")
     np.save(file2save, df)
 
+    print("Time taken to save data (mins): ", (time.time() - start_time_datasave) / 60)
 
     # #df.to_csv("/home/david/Desktop/new.csv" , sep='\t' , index=False)
     #
     #
 
-
-
-# if __name__ == "__main__":
 start_time = time.time()
-if total_row_count <= 100000:
+while total_row_count <= 100000:
+    print("Current row count: ", total_row_count)
     fetch_data()
 
-print("Time taken in (mins): ", (time.time() - start_time) / 60)
+print("Total Time taken in (mins): ", (time.time() - start_time) / 60)

@@ -2,7 +2,7 @@ import subprocess
 import json
 from pandas.io.json import json_normalize
 from summarizeDataFrame import summarizeDataset
-from datetime import datetime
+from datetime import datetime , timedelta
 
 import pandas as pd
 from time import strptime
@@ -65,10 +65,16 @@ else:
 df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
 df.sort_values(by=['DateTime'],inplace = True)
 
+# Convert to EST
+df['DateTime'] = df['DateTime'] - timedelta(hours=4)
+
+
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')
 print(df.head())
-#df.to_csv("transaction_data.csv", index=False)
+#summarizeDataset(df)
+
+df.to_csv("transaction_data.csv", index=False)
 #
 #
 # #

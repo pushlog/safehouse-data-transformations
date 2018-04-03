@@ -55,6 +55,9 @@ df['datetime'] = df['datetime'].apply(lambda x: x.tz_localize('UTC').tz_convert(
 #                         .tz_convert('US/Eastern')
 #                         .strftime("%H:%M:%S"))
 
+
+df.to_csv("transaction_data.csv", index=False)
+
 # View Meta Data
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')

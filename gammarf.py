@@ -82,7 +82,7 @@ def fetch_data():
     #
 
 start_time = time.time()
-while total_row_count <= 100000:
+while total_row_count <= 1000000:
     print("Current row count: ", total_row_count)
     fetch_data()
 

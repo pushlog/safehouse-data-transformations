@@ -66,7 +66,7 @@ def fetch_data():
     #
 
 start_time = time.time()
-while total_row_count <= 100000:
+while total_row_count <= 1000000:
     fetch_data()
 
 print("Total Time taken in (mins): ", (time.time() - start_time) / 60)

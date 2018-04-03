@@ -69,6 +69,7 @@ df['devicename']=df['_source.message'].str.split(' ', expand=True).ix[:, 0]
 
 
 # #summarizeDataset(df2)
+
 # View Meta Data
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')

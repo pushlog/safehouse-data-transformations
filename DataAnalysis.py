@@ -1,16 +1,4 @@
 
-# coding: utf-8
-
-# In[1]:
-
-get_ipython().system(u'pip install seaborn')
-get_ipython().system(u'pip install sklearn')
-get_ipython().system(u'pip install scipy')
-get_ipython().system(u'pip install plotly')
-
-
-# In[2]:
-
 # Initialize Variables
    
 # Datafile Name

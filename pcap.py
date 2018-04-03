@@ -16,59 +16,51 @@ elasticdatetimecolumn = '_source.@timestamp'
 
 body = {
     "query": {
-        "range" : {
-            
-            "@timestamp" : {
-                "gte" : "now-1d",
-                 "lt" :  "now/d"
+        "range": {
+
+            "@timestamp": {
+                "gte": "now-7d",
+                "lt": "now/d"
             }
         }
     }
 }
 
-#body = {"query": {"range": {"timestamp": {"gte": "now-1d/d", "lt": "now/d"}}}}
+# body = {"query": {"range": {"timestamp": {"gte": "now-1d/d", "lt": "now/d"}}}}
 
 
 # Elasticsearch instance
-data = se.search_elastic('logstash*' , body )
-
+data = se.search_elastic('pcap-*', body)
 
 # Store data to dataframe
 d = pd.DataFrame(json_normalize(data))
 
+# Number of transactions
 
-
-
-#Number of transactions
-
-totalT=int(len(d))
-
-
+totalT = int(len(d))
 
 if totalT == 1:
 
     df = json_normalize(d.ix[0, 'hits.hits'])
 else:
 
-
-# Append hits to dataframe
+    # Append hits to dataframe
     df = pd.DataFrame([])
 
-    for x in range( 0 , totalT - 1) :
-
-        ed=json_normalize(d.ix[x, 'hits.hits'] )
+    for x in range(0, totalT - 1):
+        ed = json_normalize(d.ix[x, 'hits.hits'])
         df = df.append(ed)
 
 # Garbarge collect dataframe
 
-#del d
+# del d
 
 #
-df['DateTime'] =pd.to_datetime(df[elasticdatetimecolumn])
+df['DateTime'] = pd.to_datetime(df[elasticdatetimecolumn])
 # df.sort_values(by=['DateTime'],inplace = True)
 #
-print('\n',"Total Transactions:",totalT ,'\n')
-print("Total Rows:",len(df) ,'\n')
+print('\n', "Total Transactions:", totalT, '\n')
+print("Total Rows:", len(df), '\n')
 print(df.head())
 
 

@@ -2334,3 +2334,447 @@ Mon Apr 02 2018 14:17:34 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,MotionSensor
 Mon Apr 02 2018 14:18:48 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-02 14:18:48,MotionSensorRoom1
 Mon Apr 02 2018 14:18:54 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-02 14:18:54,Hallway1
 Mon Apr 02 2018 14:25:12 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-02 14:25:12,Smart
+Mon Apr 02 2018 15:25:18 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-02 15:25:18,Smart
+Mon Apr 02 2018 16:15:11 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-02 16:15:11,Plug
+Mon Apr 02 2018 17:15:44 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-02 17:15:44,Plug
+Mon Apr 02 2018 18:15:54 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-02 18:15:54,Plug
+Mon Apr 02 2018 18:36:37 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-02 18:36:37,Smart
+Mon Apr 02 2018 19:16:07 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-02 19:16:07,Plug
+Mon Apr 02 2018 19:56:00 GMT-0400 (EDT),domoticz-2018-04-02,1.0,,,,,Sensor swx-u-range-sensor-light-1 Last Update: 2018-04-02 07:56:28 [!= 1 minutes],0,,,,notification,2018-04-02 19:56:00,Sensor
+Mon Apr 02 2018 20:20:37 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-02 20:20:37,Plug
+Mon Apr 02 2018 20:40:37 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-02 20:40:37,Smart
+Mon Apr 02 2018 22:25:11 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-02 22:25:11,Plug
+Mon Apr 02 2018 22:45:47 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-02 22:45:47,Smart
+Mon Apr 02 2018 23:25:11 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-02 23:25:11,Plug
+Mon Apr 02 2018 23:50:27 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-02 23:50:27,Smart
+Tue Apr 03 2018 00:25:13 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-03 00:25:13,Plug
+Tue Apr 03 2018 01:25:27 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-03 01:25:27,Plug
+Tue Apr 03 2018 02:55:19 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 02:55:19,Smart
+Tue Apr 03 2018 03:30:37 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-03 03:30:37,Plug
+Tue Apr 03 2018 06:35:21 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-03 06:35:21,Plug
+Tue Apr 03 2018 07:35:26 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-03 07:35:26,Plug
+Tue Apr 03 2018 07:56:00 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Sensor swx-u-range-sensor-light-1 Last Update: 2018-04-02 07:56:28 [!= 1 minutes],0,,,,notification,2018-04-03 07:56:00,Sensor
+Tue Apr 03 2018 08:05:29 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 08:05:29,Smart
+Tue Apr 03 2018 08:35:34 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-03 08:35:34,Plug
+Tue Apr 03 2018 09:35:41 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-03 09:35:41,Plug
+Tue Apr 03 2018 10:34:03 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:34:03,Hallway1
+Tue Apr 03 2018 10:34:42 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:34:42,Hallway1
+Tue Apr 03 2018 10:34:45 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:34:45,Hallway1
+Tue Apr 03 2018 10:34:54 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:34:54,Hallway1
+Tue Apr 03 2018 10:35:05 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:35:05,Hallway1
+Tue Apr 03 2018 10:35:10 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:35:10,Hallway1
+Tue Apr 03 2018 10:35:20 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 10:35:20,MotionSensorRoom1
+Tue Apr 03 2018 10:36:24 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:36:24,Hallway1
+Tue Apr 03 2018 10:36:27 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:36:27,Hallway1
+Tue Apr 03 2018 10:40:08 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:40:08,Hallway1
+Tue Apr 03 2018 10:40:13 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:40:13,Hallway1
+Tue Apr 03 2018 10:40:25 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:40:25,Hallway1
+Tue Apr 03 2018 10:40:27 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:40:27,Hallway1
+Tue Apr 03 2018 10:40:33 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:40:33,Hallway1
+Tue Apr 03 2018 10:40:38 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:40:38,Hallway1
+Tue Apr 03 2018 10:40:40 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:40:40,Hallway1
+Tue Apr 03 2018 10:40:52 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:40:52,Hallway1
+Tue Apr 03 2018 10:40:56 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:40:56,Hallway1
+Tue Apr 03 2018 10:40:59 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:40:59,Hallway1
+Tue Apr 03 2018 10:41:12 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:41:12,Hallway1
+Tue Apr 03 2018 10:41:18 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:41:18,Hallway1
+Tue Apr 03 2018 10:42:10 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:42:10,Hallway1
+Tue Apr 03 2018 10:42:13 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:42:13,Hallway1
+Tue Apr 03 2018 10:42:15 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:42:15,Hallway1
+Tue Apr 03 2018 10:43:40 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:43:40,Hallway1
+Tue Apr 03 2018 10:45:23 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:45:23,Hallway1
+Tue Apr 03 2018 10:48:16 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:48:16,Hallway1
+Tue Apr 03 2018 10:49:37 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:49:37,Hallway1
+Tue Apr 03 2018 10:50:58 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:50:58,Hallway1
+Tue Apr 03 2018 10:52:19 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:52:19,Hallway1
+Tue Apr 03 2018 10:53:09 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:53:09,Hallway1
+Tue Apr 03 2018 10:54:36 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:54:36,Hallway1
+Tue Apr 03 2018 10:55:35 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 10:55:35,MotionSensorRoom1
+Tue Apr 03 2018 10:55:47 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:55:47,Hallway1
+Tue Apr 03 2018 10:56:23 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:56:23,Hallway1
+Tue Apr 03 2018 10:56:43 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:56:43,Hallway1
+Tue Apr 03 2018 10:56:48 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 10:56:48,MotionSensorRoom1
+Tue Apr 03 2018 10:56:50 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:56:50,Hallway1
+Tue Apr 03 2018 10:58:22 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 10:58:22,MotionSensorRoom1
+Tue Apr 03 2018 10:59:32 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 10:59:32,Hallway1
+Tue Apr 03 2018 10:59:35 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 10:59:35,MotionSensorRoom1
+Tue Apr 03 2018 10:59:44 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 10:59:44,MotionSensorRoom1
+Tue Apr 03 2018 10:59:52 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 10:59:52,Hallway1
+Tue Apr 03 2018 11:00:25 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:00:25,Hallway1
+Tue Apr 03 2018 11:00:33 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:00:33,Hallway1
+Tue Apr 03 2018 11:00:40 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:00:40,Hallway1
+Tue Apr 03 2018 11:01:02 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 11:01:02,MotionSensorRoom1
+Tue Apr 03 2018 11:01:19 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:01:19,Hallway1
+Tue Apr 03 2018 11:01:38 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:01:38,Hallway1
+Tue Apr 03 2018 11:01:39 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:01:39,Hallway1
+Tue Apr 03 2018 11:02:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:02:07,Hallway1
+Tue Apr 03 2018 11:02:14 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:02:14,Hallway1
+Tue Apr 03 2018 11:02:34 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:02:34,Hallway1
+Tue Apr 03 2018 11:02:39 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:02:39,Hallway1
+Tue Apr 03 2018 11:02:46 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:02:46,Hallway1
+Tue Apr 03 2018 11:03:17 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 11:03:17,MotionSensorRoom1
+Tue Apr 03 2018 11:04:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:04:07,Hallway1
+Tue Apr 03 2018 11:10:09 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 11:10:09,Smart
+Tue Apr 03 2018 11:15:05 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:15:05,Hallway1
+Tue Apr 03 2018 11:15:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 11:15:07,MotionSensorRoom1
+Tue Apr 03 2018 11:16:24 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 11:16:24,MotionSensorRoom1
+Tue Apr 03 2018 11:16:26 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:16:26,Hallway1
+Tue Apr 03 2018 11:40:47 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-03 11:40:47,Plug
+Tue Apr 03 2018 11:48:02 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 11:48:02,MotionSensorRoom1
+Tue Apr 03 2018 11:48:10 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:48:10,Hallway1
+Tue Apr 03 2018 11:48:52 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:48:52,Hallway1
+Tue Apr 03 2018 11:48:57 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:48:57,Hallway1
+Tue Apr 03 2018 11:48:58 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:48:58,Hallway1
+Tue Apr 03 2018 11:49:03 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 11:49:03,Hallway1
+Tue Apr 03 2018 11:51:49 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:51:49,Hallway1
+Tue Apr 03 2018 11:55:42 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 11:55:42,MotionSensorRoom1
+Tue Apr 03 2018 11:57:35 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 11:57:35,Hallway1
+Tue Apr 03 2018 11:59:11 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 11:59:11,Lock1
+Tue Apr 03 2018 12:00:58 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:00:58,Lock1
+Tue Apr 03 2018 12:03:57 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:03:57,Lock1
+Tue Apr 03 2018 12:05:05 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:05:05,Lock1
+Tue Apr 03 2018 12:05:47 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:05:47,MotionSensorRoom1
+Tue Apr 03 2018 12:05:48 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:05:48,Hallway1
+Tue Apr 03 2018 12:06:33 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:06:33,Lock1
+Tue Apr 03 2018 12:07:00 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:07:00,MotionSensorRoom1
+Tue Apr 03 2018 12:07:10 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:07:10,Hallway1
+Tue Apr 03 2018 12:08:21 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:08:21,Lock1
+Tue Apr 03 2018 12:09:06 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 12:09:06,Lamp
+Tue Apr 03 2018 12:09:32 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:09:32,Hallway1
+Tue Apr 03 2018 12:10:45 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:10:45,Lock1
+Tue Apr 03 2018 12:10:53 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:10:53,Hallway1
+Tue Apr 03 2018 12:10:56 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:10:56,MotionSensorRoom1
+Tue Apr 03 2018 12:10:59 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 12:10:59,Smart
+Tue Apr 03 2018 12:12:32 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:12:32,Lock1
+Tue Apr 03 2018 12:13:33 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:13:33,MotionSensorRoom1
+Tue Apr 03 2018 12:14:21 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:14:21,Lock1
+Tue Apr 03 2018 12:14:25 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 12:14:25,Lamp
+Tue Apr 03 2018 12:14:46 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:14:46,MotionSensorRoom1
+Tue Apr 03 2018 12:14:54 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:14:54,Hallway1
+Tue Apr 03 2018 12:16:09 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:16:09,Lock1
+Tue Apr 03 2018 12:17:41 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:17:41,Hallway1
+Tue Apr 03 2018 12:18:03 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:18:03,Lock1
+Tue Apr 03 2018 12:19:02 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:19:02,Hallway1
+Tue Apr 03 2018 12:19:41 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:19:41,Lock1
+Tue Apr 03 2018 12:20:42 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:20:42,Hallway1
+Tue Apr 03 2018 12:21:17 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:21:17,Lock1
+Tue Apr 03 2018 12:21:54 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:21:54,MotionSensorRoom1
+Tue Apr 03 2018 12:22:02 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:22:02,MotionSensorRoom1
+Tue Apr 03 2018 12:22:53 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:22:53,Lock1
+Tue Apr 03 2018 12:23:15 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:23:15,MotionSensorRoom1
+Tue Apr 03 2018 12:23:22 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:23:22,Hallway1
+Tue Apr 03 2018 12:23:39 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:23:39,MotionSensorRoom1
+Tue Apr 03 2018 12:24:10 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 12:24:10,Lamp
+Tue Apr 03 2018 12:25:41 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:25:41,Lock1
+Tue Apr 03 2018 12:26:09 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:26:09,Hallway1
+Tue Apr 03 2018 12:27:28 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:27:28,Lock1
+Tue Apr 03 2018 12:28:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:28:07,Hallway1
+Tue Apr 03 2018 12:28:47 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:28:47,Lock1
+Tue Apr 03 2018 12:29:31 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:29:31,Hallway1
+Tue Apr 03 2018 12:31:21 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:31:21,Lock1
+Tue Apr 03 2018 12:32:35 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:32:35,MotionSensorRoom1
+Tue Apr 03 2018 12:32:36 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:32:36,Hallway1
+Tue Apr 03 2018 12:33:13 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:33:13,Lock1
+Tue Apr 03 2018 12:33:57 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:33:57,Hallway1
+Tue Apr 03 2018 12:34:55 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:34:55,Lock1
+Tue Apr 03 2018 12:35:51 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:35:51,Hallway1
+Tue Apr 03 2018 12:36:33 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:36:33,Lock1
+Tue Apr 03 2018 12:37:04 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:37:04,MotionSensorRoom1
+Tue Apr 03 2018 12:37:12 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:37:12,Hallway1
+Tue Apr 03 2018 12:38:20 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:38:20,Lock1
+Tue Apr 03 2018 12:38:57 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:38:57,Hallway1
+Tue Apr 03 2018 12:39:05 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:39:05,MotionSensorRoom1
+Tue Apr 03 2018 12:39:30 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 12:39:30,Lamp
+Tue Apr 03 2018 12:39:55 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 12:39:55,Lock1
+Tue Apr 03 2018 12:40:18 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:40:18,MotionSensorRoom1
+Tue Apr 03 2018 12:42:31 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:42:31,MotionSensorRoom1
+Tue Apr 03 2018 12:42:38 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:42:38,Hallway1
+Tue Apr 03 2018 12:42:48 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:42:48,Hallway1
+Tue Apr 03 2018 12:42:55 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:42:55,Hallway1
+Tue Apr 03 2018 12:43:02 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:43:02,Hallway1
+Tue Apr 03 2018 12:43:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:43:07,Hallway1
+Tue Apr 03 2018 12:43:12 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:43:12,Hallway1
+Tue Apr 03 2018 12:43:27 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:43:27,Hallway1
+Tue Apr 03 2018 12:43:33 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:43:33,Hallway1
+Tue Apr 03 2018 12:43:35 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:43:35,Hallway1
+Tue Apr 03 2018 12:44:20 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:44:20,Hallway1
+Tue Apr 03 2018 12:44:38 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:44:38,Hallway1
+Tue Apr 03 2018 12:44:39 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:44:39,Hallway1
+Tue Apr 03 2018 12:44:44 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:44:44,Hallway1
+Tue Apr 03 2018 12:44:48 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:44:48,Hallway1
+Tue Apr 03 2018 12:46:05 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:46:05,Hallway1
+Tue Apr 03 2018 12:46:13 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:46:13,Hallway1
+Tue Apr 03 2018 12:46:23 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:46:23,MotionSensorRoom1
+Tue Apr 03 2018 12:46:31 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:46:31,MotionSensorRoom1
+Tue Apr 03 2018 12:46:32 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:46:32,MotionSensorRoom1
+Tue Apr 03 2018 12:46:41 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:46:41,MotionSensorRoom1
+Tue Apr 03 2018 12:47:11 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:47:11,Hallway1
+Tue Apr 03 2018 12:47:15 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:47:15,Hallway1
+Tue Apr 03 2018 12:47:22 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:47:22,Hallway1
+Tue Apr 03 2018 12:47:27 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:47:27,Hallway1
+Tue Apr 03 2018 12:47:28 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:47:28,Hallway1
+Tue Apr 03 2018 12:47:46 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:47:46,Hallway1
+Tue Apr 03 2018 12:48:59 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:48:59,MotionSensorRoom1
+Tue Apr 03 2018 12:49:05 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:49:05,Hallway1
+Tue Apr 03 2018 12:49:12 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 12:49:12,MotionSensorRoom1
+Tue Apr 03 2018 12:49:40 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:49:40,Hallway1
+Tue Apr 03 2018 12:51:39 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 12:51:39,MotionSensorRoom1
+Tue Apr 03 2018 12:53:24 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:53:24,Hallway1
+Tue Apr 03 2018 12:53:50 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:53:50,Hallway1
+Tue Apr 03 2018 12:56:22 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:56:22,Hallway1
+Tue Apr 03 2018 12:57:13 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:57:13,Hallway1
+Tue Apr 03 2018 12:58:37 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 12:58:37,Hallway1
+Tue Apr 03 2018 12:58:50 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 12:58:50,Hallway1
+Tue Apr 03 2018 13:04:04 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:04:04,Lock1
+Tue Apr 03 2018 13:04:29 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:04:29,Lock1
+Tue Apr 03 2018 13:05:19 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:05:19,Lock1
+Tue Apr 03 2018 13:05:41 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:05:41,Lock1
+Tue Apr 03 2018 13:06:09 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:06:09,Lock1
+Tue Apr 03 2018 13:06:32 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:06:32,Lock1
+Tue Apr 03 2018 13:06:38 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:06:38,MotionSensorRoom1
+Tue Apr 03 2018 13:06:45 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:06:45,MotionSensorRoom1
+Tue Apr 03 2018 13:06:53 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:06:53,MotionSensorRoom1
+Tue Apr 03 2018 13:07:11 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:07:11,Lock1
+Tue Apr 03 2018 13:07:46 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:07:46,MotionSensorRoom1
+Tue Apr 03 2018 13:07:55 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:07:55,MotionSensorRoom1
+Tue Apr 03 2018 13:08:03 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:08:03,Lock1
+Tue Apr 03 2018 13:08:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:08:07,MotionSensorRoom1
+Tue Apr 03 2018 13:08:11 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:08:11,Lock1
+Tue Apr 03 2018 13:08:31 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 13:08:31,Lock1
+Tue Apr 03 2018 13:09:04 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:09:04,MotionSensorRoom1
+Tue Apr 03 2018 13:09:09 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:09:09,MotionSensorRoom1
+Tue Apr 03 2018 13:09:10 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:09:10,MotionSensorRoom1
+Tue Apr 03 2018 13:09:13 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:09:13,MotionSensorRoom1
+Tue Apr 03 2018 13:09:48 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:09:48,Hallway1
+Tue Apr 03 2018 13:10:01 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:10:01,Hallway1
+Tue Apr 03 2018 13:10:02 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:10:02,MotionSensorRoom1
+Tue Apr 03 2018 13:10:30 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:10:30,MotionSensorRoom1
+Tue Apr 03 2018 13:10:36 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:10:36,MotionSensorRoom1
+Tue Apr 03 2018 13:10:41 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:10:41,MotionSensorRoom1
+Tue Apr 03 2018 13:10:49 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:10:49,MotionSensorRoom1
+Tue Apr 03 2018 13:11:45 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:11:45,MotionSensorRoom1
+Tue Apr 03 2018 13:11:58 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:11:58,MotionSensorRoom1
+Tue Apr 03 2018 13:12:02 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:12:02,MotionSensorRoom1
+Tue Apr 03 2018 13:12:06 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:12:06,MotionSensorRoom1
+Tue Apr 03 2018 13:12:26 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:12:26,MotionSensorRoom1
+Tue Apr 03 2018 13:12:40 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:12:40,MotionSensorRoom1
+Tue Apr 03 2018 13:12:46 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:12:46,Hallway1
+Tue Apr 03 2018 13:12:48 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:12:48,MotionSensorRoom1
+Tue Apr 03 2018 13:13:04 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:13:04,Hallway1
+Tue Apr 03 2018 13:13:05 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:13:05,Hallway1
+Tue Apr 03 2018 13:13:10 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:13:10,Hallway1
+Tue Apr 03 2018 13:13:13 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:13:13,Hallway1
+Tue Apr 03 2018 13:13:16 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:13:16,Hallway1
+Tue Apr 03 2018 13:13:17 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:13:17,Hallway1
+Tue Apr 03 2018 13:13:22 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:13:22,Hallway1
+Tue Apr 03 2018 13:13:24 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:13:24,Hallway1
+Tue Apr 03 2018 13:13:29 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:13:29,MotionSensorRoom1
+Tue Apr 03 2018 13:13:34 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:13:34,MotionSensorRoom1
+Tue Apr 03 2018 13:13:45 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:13:45,MotionSensorRoom1
+Tue Apr 03 2018 13:13:55 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:13:55,MotionSensorRoom1
+Tue Apr 03 2018 13:14:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:14:07,MotionSensorRoom1
+Tue Apr 03 2018 13:14:23 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:14:23,MotionSensorRoom1
+Tue Apr 03 2018 13:14:31 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:14:31,Hallway1
+Tue Apr 03 2018 13:14:36 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:14:36,MotionSensorRoom1
+Tue Apr 03 2018 13:14:45 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:14:45,Hallway1
+Tue Apr 03 2018 13:14:49 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:14:49,Hallway1
+Tue Apr 03 2018 13:14:52 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:14:52,Hallway1
+Tue Apr 03 2018 13:14:59 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:14:59,Hallway1
+Tue Apr 03 2018 13:15:03 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:15:03,Hallway1
+Tue Apr 03 2018 13:15:30 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:15:30,Hallway1
+Tue Apr 03 2018 13:15:34 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:15:34,Hallway1
+Tue Apr 03 2018 13:15:38 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 13:15:38,Smart
+Tue Apr 03 2018 13:15:47 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:15:47,Hallway1
+Tue Apr 03 2018 13:15:54 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:15:54,Hallway1
+Tue Apr 03 2018 13:16:03 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:16:03,Hallway1
+Tue Apr 03 2018 13:16:09 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:16:09,Hallway1
+Tue Apr 03 2018 13:16:16 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:16:16,Hallway1
+Tue Apr 03 2018 13:17:30 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:17:30,MotionSensorRoom1
+Tue Apr 03 2018 13:17:39 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:17:39,Hallway1
+Tue Apr 03 2018 13:18:35 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:18:35,Hallway1
+Tue Apr 03 2018 13:20:50 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:20:50,MotionSensorRoom1
+Tue Apr 03 2018 13:20:59 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:20:59,MotionSensorRoom1
+Tue Apr 03 2018 13:21:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:21:07,MotionSensorRoom1
+Tue Apr 03 2018 13:21:24 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:21:24,MotionSensorRoom1
+Tue Apr 03 2018 13:22:23 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:22:23,Hallway1
+Tue Apr 03 2018 13:46:01 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:46:01,Hallway1
+Tue Apr 03 2018 13:47:22 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 13:47:22,Hallway1
+Tue Apr 03 2018 13:50:38 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 13:50:38,Hallway1
+Tue Apr 03 2018 13:53:04 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 13:53:04,MotionSensorRoom1
+Tue Apr 03 2018 13:54:17 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 13:54:17,MotionSensorRoom1
+Tue Apr 03 2018 14:05:34 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 14:05:34,Hallway1
+Tue Apr 03 2018 14:06:55 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 14:06:55,Hallway1
+Tue Apr 03 2018 14:09:21 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 14:09:21,Lock1
+Tue Apr 03 2018 14:25:45 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 14:25:45,MotionSensorRoom1
+Tue Apr 03 2018 14:27:06 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 14:27:06,Hallway1
+Tue Apr 03 2018 14:48:39 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 14:48:39,Lock1
+Tue Apr 03 2018 14:49:38 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 14:49:38,Lock1
+Tue Apr 03 2018 14:50:11 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 14:50:11,MotionSensorRoom1
+Tue Apr 03 2018 14:50:12 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 14:50:12,MotionSensorRoom1
+Tue Apr 03 2018 14:50:42 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 14:50:42,Lock1
+Tue Apr 03 2018 14:51:32 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 14:51:32,Hallway1
+Tue Apr 03 2018 14:52:32 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 14:52:32,Lock1
+Tue Apr 03 2018 14:53:49 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 14:53:49,Hallway1
+Tue Apr 03 2018 14:54:05 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 14:54:05,Lamp
+Tue Apr 03 2018 14:54:18 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 14:54:18,Lock1
+Tue Apr 03 2018 14:55:02 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 14:55:02,Hallway1
+Tue Apr 03 2018 14:56:03 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 14:56:03,Lock1
+Tue Apr 03 2018 14:56:58 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 14:56:58,Hallway1
+Tue Apr 03 2018 14:58:00 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 14:58:00,MotionSensorRoom1
+Tue Apr 03 2018 14:58:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 14:58:07,Hallway1
+Tue Apr 03 2018 15:03:14 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 15:03:14,Hallway1
+Tue Apr 03 2018 15:04:07 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 15:04:07,MotionSensorRoom1
+Tue Apr 03 2018 15:04:09 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 15:04:09,Lamp
+Tue Apr 03 2018 15:04:13 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 15:04:13,MotionSensorRoom1
+Tue Apr 03 2018 15:04:16 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 15:04:16,MotionSensorRoom1
+Tue Apr 03 2018 15:04:20 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 15:04:20,MotionSensorRoom1
+Tue Apr 03 2018 15:04:21 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 15:04:21,MotionSensorRoom1
+Tue Apr 03 2018 15:04:30 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 15:04:30,MotionSensorRoom1
+Tue Apr 03 2018 15:04:37 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 15:04:37,MotionSensorRoom1
+Tue Apr 03 2018 15:04:58 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-03 15:04:58,Lock1
+Tue Apr 03 2018 15:05:09 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 15:05:09,MotionSensorRoom1
+Tue Apr 03 2018 15:05:33 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 15:05:33,MotionSensorRoom1
+Tue Apr 03 2018 15:07:02 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 15:07:02,Hallway1
+Tue Apr 03 2018 15:07:40 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 15:07:40,Hallway1
+Tue Apr 03 2018 15:09:01 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 15:09:01,Hallway1
+Tue Apr 03 2018 15:09:24 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 15:09:24,Hallway1
+Tue Apr 03 2018 15:09:30 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 15:09:30,Lamp
+Tue Apr 03 2018 15:10:45 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 15:10:45,Hallway1
+Tue Apr 03 2018 15:10:46 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 15:10:46,MotionSensorRoom1
+Tue Apr 03 2018 15:20:20 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 15:20:20,Smart
+Tue Apr 03 2018 15:44:52 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 15:44:52,MotionSensorRoom1
+Tue Apr 03 2018 15:44:58 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 15:44:58,Hallway1
+Tue Apr 03 2018 15:45:25 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-03 15:45:25,Plug
+Tue Apr 03 2018 15:47:36 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 15:47:36,Hallway1
+Tue Apr 03 2018 15:57:36 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-03 15:57:36,Hallway1
+Tue Apr 03 2018 15:57:39 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-03 15:57:39,MotionSensorRoom1
+Tue Apr 03 2018 15:58:51 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-03 15:58:51,MotionSensorRoom1
+Tue Apr 03 2018 15:58:56 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-03 15:58:56,Hallway1
+Tue Apr 03 2018 16:47:58 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-03 16:47:58,Plug
+Tue Apr 03 2018 17:25:22 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 17:25:22,Smart
+Tue Apr 03 2018 17:50:19 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-03 17:50:19,Plug
+Tue Apr 03 2018 18:19:15 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 18:19:15,Lamp
+Tue Apr 03 2018 18:50:24 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-03 18:50:24,Plug
+Tue Apr 03 2018 19:24:29 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 19:24:29,Lamp
+Tue Apr 03 2018 19:35:12 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 19:35:12,Smart
+Tue Apr 03 2018 19:50:31 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-03 19:50:31,Plug
+Tue Apr 03 2018 19:56:00 GMT-0400 (EDT),domoticz-2018-04-03,1.0,,,,,Sensor swx-u-range-sensor-light-1 Last Update: 2018-04-03 17:18:16 [!= 1 minutes],0,,,,notification,2018-04-03 19:56:00,Sensor
+Tue Apr 03 2018 20:29:26 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 20:29:26,Lamp
+Tue Apr 03 2018 20:40:02 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 20:40:02,Smart
+Tue Apr 03 2018 21:34:11 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 21:34:11,Lamp
+Tue Apr 03 2018 21:40:06 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 21:40:06,Smart
+Tue Apr 03 2018 21:55:08 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-03 21:55:08,Plug
+Tue Apr 03 2018 22:39:30 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-03 22:39:30,Lamp
+Tue Apr 03 2018 22:40:31 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-03 22:40:31,Smart
+Tue Apr 03 2018 22:55:25 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-03 22:55:25,Plug
+Tue Apr 03 2018 23:58:05 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-03 23:58:05,Plug
+Wed Apr 04 2018 00:58:08 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-04 00:58:08,Plug
+Wed Apr 04 2018 01:58:11 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 01:58:11,Plug
+Wed Apr 04 2018 04:03:05 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 04:03:05,Plug
+Wed Apr 04 2018 05:03:11 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 05:03:11,Plug
+Wed Apr 04 2018 06:03:25 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-04 06:03:25,Plug
+Wed Apr 04 2018 07:56:00 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Sensor swx-u-range-sensor-light-1 Last Update: 2018-04-03 20:15:11 [!= 1 minutes],0,,,,notification,2018-04-04 07:56:00,Sensor
+Wed Apr 04 2018 08:08:11 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 08:08:11,Plug
+Wed Apr 04 2018 09:08:18 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 09:08:18,Plug
+Wed Apr 04 2018 10:13:03 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 10:13:03,Plug
+Wed Apr 04 2018 10:36:14 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 10:36:14,Lamp
+Wed Apr 04 2018 10:55:50 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-04 10:55:50,Smart
+Wed Apr 04 2018 11:05:22 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-04 11:05:22,Smart
+Wed Apr 04 2018 11:10:13 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:10:13,Lock1
+Wed Apr 04 2018 11:10:40 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:10:40,Lock1
+Wed Apr 04 2018 11:10:46 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:10:46,Lock1
+Wed Apr 04 2018 11:11:43 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:11:43,Lock1
+Wed Apr 04 2018 11:11:47 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:11:47,Lock1
+Wed Apr 04 2018 11:12:42 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:12:42,Lock1
+Wed Apr 04 2018 11:13:19 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:13:19,Lock1
+Wed Apr 04 2018 11:13:20 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:13:20,Lock1
+Wed Apr 04 2018 11:13:24 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:13:24,Lock1
+Wed Apr 04 2018 11:13:38 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 11:13:38,Plug
+Wed Apr 04 2018 11:15:42 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:15:42,Lock1
+Wed Apr 04 2018 11:17:30 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 11:17:30,Lock1
+Wed Apr 04 2018 11:36:15 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 11:36:15,Lamp
+Wed Apr 04 2018 11:45:45 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-04 11:45:45,Hallway1
+Wed Apr 04 2018 11:45:46 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-04 11:45:46,MotionSensorRoom1
+Wed Apr 04 2018 11:46:59 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-04 11:46:59,MotionSensorRoom1
+Wed Apr 04 2018 11:47:06 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-04 11:47:06,Hallway1
+Wed Apr 04 2018 12:05:33 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-04 12:05:33,Smart
+Wed Apr 04 2018 12:07:02 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 12:07:02,Lock1
+Wed Apr 04 2018 12:07:03 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 12:07:03,Lock1
+Wed Apr 04 2018 12:36:23 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 12:36:23,Lamp
+Wed Apr 04 2018 13:06:47 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 13:06:47,Lock1
+Wed Apr 04 2018 13:07:51 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 13:07:51,Lock1
+Wed Apr 04 2018 13:10:16 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-04 13:10:16,Smart
+Wed Apr 04 2018 13:10:50 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 13:10:50,Lock1
+Wed Apr 04 2018 13:10:57 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 13:10:57,Lock1
+Wed Apr 04 2018 13:18:23 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 13:18:23,Plug
+Wed Apr 04 2018 14:10:32 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-04 14:10:32,Smart
+Wed Apr 04 2018 14:25:00 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 14:25:00,Lock1
+Wed Apr 04 2018 14:25:57 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Hallway1 - Motion Detected,0,,,,notification,2018-04-04 14:25:57,Hallway1
+Wed Apr 04 2018 14:25:58 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,MotionSensorRoom1 - Motion Detected,0,,,,notification,2018-04-04 14:25:58,MotionSensorRoom1
+Wed Apr 04 2018 14:26:31 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 14:26:31,Lock1
+Wed Apr 04 2018 14:27:18 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Hallway1 - Alarm Off,0,,,,notification,2018-04-04 14:27:18,Hallway1
+Wed Apr 04 2018 14:27:19 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,MotionSensorRoom1 - Monitoring,0,,,,notification,2018-04-04 14:27:19,MotionSensorRoom1
+Wed Apr 04 2018 14:41:05 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 14:41:05,Lamp
+Wed Apr 04 2018 14:48:24 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 14:48:24,Lock1
+Wed Apr 04 2018 14:48:33 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 14:48:33,Lock1
+Wed Apr 04 2018 15:23:28 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 15:23:28,Plug
+Wed Apr 04 2018 15:36:10 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:36:10,Lock1
+Wed Apr 04 2018 15:37:48 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:37:48,Lock1
+Wed Apr 04 2018 15:37:56 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:37:56,Lock1
+Wed Apr 04 2018 15:38:02 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:38:02,Lock1
+Wed Apr 04 2018 15:38:12 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:38:12,Lock1
+Wed Apr 04 2018 15:38:31 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:38:31,Lock1
+Wed Apr 04 2018 15:38:48 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:38:48,Lock1
+Wed Apr 04 2018 15:38:56 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:38:56,Lock1
+Wed Apr 04 2018 15:41:08 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 15:41:08,Lamp
+Wed Apr 04 2018 15:41:23 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:41:23,Lock1
+Wed Apr 04 2018 15:41:24 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:41:24,Lock1
+Wed Apr 04 2018 15:41:26 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:41:26,Lock1
+Wed Apr 04 2018 15:41:27 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:41:27,Lock1
+Wed Apr 04 2018 15:41:30 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:41:30,Lock1
+Wed Apr 04 2018 15:41:35 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:41:35,Lock1
+Wed Apr 04 2018 15:41:41 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:41:41,Lock1
+Wed Apr 04 2018 15:41:52 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:41:52,Lock1
+Wed Apr 04 2018 15:42:50 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:42:50,Lock1
+Wed Apr 04 2018 15:43:17 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:43:17,Lock1
+Wed Apr 04 2018 15:43:18 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:43:18,Lock1
+Wed Apr 04 2018 15:56:10 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:56:10,Lock1
+Wed Apr 04 2018 15:57:07 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:57:07,Lock1
+Wed Apr 04 2018 15:57:08 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:57:08,Lock1
+Wed Apr 04 2018 15:58:03 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:58:03,Lock1
+Wed Apr 04 2018 15:58:38 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:58:38,Lock1
+Wed Apr 04 2018 15:59:00 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:59:00,Lock1
+Wed Apr 04 2018 15:59:21 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:59:21,Lock1
+Wed Apr 04 2018 15:59:42 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 15:59:42,Lock1
+Wed Apr 04 2018 16:00:00 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 16:00:00,Lock1
+Wed Apr 04 2018 16:00:38 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lock1 Unlocked,0,,,,notification,2018-04-04 16:00:38,Lock1
+Wed Apr 04 2018 16:41:34 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 16:41:34,Lamp
+Wed Apr 04 2018 17:28:31 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 17:28:31,Plug
+Wed Apr 04 2018 18:30:38 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-04 18:30:38,Smart
+Wed Apr 04 2018 18:33:19 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-04 18:33:19,Plug
+Wed Apr 04 2018 18:46:22 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 18:46:22,Lamp
+Wed Apr 04 2018 19:32:00 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-04 19:32:00,Smart
+Wed Apr 04 2018 19:33:20 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-04 19:33:20,Plug
+Wed Apr 04 2018 19:51:08 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 19:51:08,Lamp
+Wed Apr 04 2018 19:56:00 GMT-0400 (EDT),domoticz-2018-04-04,1.0,,,,,Sensor swx-u-range-sensor-light-1 Last Update: 2018-04-04 17:28:00 [!= 1 minutes],0,,,,notification,2018-04-04 19:56:00,Sensor
+Wed Apr 04 2018 20:33:26 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-04 20:33:26,Plug
+Wed Apr 04 2018 20:56:06 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 20:56:06,Lamp
+Wed Apr 04 2018 21:35:23 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-04 21:35:23,Smart
+Wed Apr 04 2018 21:38:07 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-04 21:38:07,Plug
+Wed Apr 04 2018 21:56:15 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Lamp Turned On,0,,,,notification,2018-04-04 21:56:15,Lamp
+Wed Apr 04 2018 22:38:13 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 22:38:13,Plug
+Wed Apr 04 2018 23:38:22 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-04 23:38:22,Plug
+Wed Apr 04 2018 23:40:21 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-04 23:40:21,Smart
+Thu Apr 05 2018 00:38:25 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-05 00:38:25,Plug
+Thu Apr 05 2018 00:45:30 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-05 00:45:30,Smart
+Thu Apr 05 2018 01:45:33 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-05 01:45:33,Smart
+Thu Apr 05 2018 02:43:04 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-05 02:43:04,Plug
+Thu Apr 05 2018 02:45:37 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-05 02:45:37,Smart
+Thu Apr 05 2018 03:43:20 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-05 03:43:20,Plug
+Thu Apr 05 2018 05:48:24 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-05 05:48:24,Plug
+Thu Apr 05 2018 06:53:13 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-05 06:53:13,Plug
+Thu Apr 05 2018 07:53:21 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned Off,0,,,,notification,2018-04-05 07:53:21,Plug
+Thu Apr 05 2018 07:56:00 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Sensor swx-u-range-sensor-light-1 Last Update: 2018-04-04 17:28:00 [!= 1 minutes],0,,,,notification,2018-04-05 07:56:00,Sensor
+Thu Apr 05 2018 08:58:14 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-05 08:58:14,Plug
+Thu Apr 05 2018 09:58:21 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Plug (Wink Turned On,0,,,,notification,2018-04-05 09:58:21,Plug
+Thu Apr 05 2018 10:15:42 GMT-0400 (EDT),domoticz-2018-04-05,1.0,,,,,Smart Plug (AP) Turned On,0,,,,notification,2018-04-05 10:15:42,Smart

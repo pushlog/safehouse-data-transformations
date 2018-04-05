@@ -62,6 +62,8 @@ df['DateTime'] = pd.to_datetime(df[elasticdatetimecolumn])
 print('\n', "Total Transactions:", totalT, '\n')
 print("Total Rows:", len(df), '\n')
 print(df.head())
+df.to_csv("pcap.csv",index=False ,encoding = 'utf-8')
+
 
 
 # #

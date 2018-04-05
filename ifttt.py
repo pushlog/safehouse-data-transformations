@@ -74,7 +74,7 @@ print("Total Rows:",len(df) ,'\n')
 print(df.head())
 #summarizeDataset(df)
 
-df.to_csv("transaction_data.csv", index=False)
+df.to_csv("ifttt.csv", index=False)
 #
 #
 # #

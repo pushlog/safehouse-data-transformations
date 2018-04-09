@@ -2,4 +2,4 @@
 
 ### Usage:
   - domoticz
-    - python domoticz.py -start=01/01/2018 -end=09/04/2018
+    - python domoticz.py -start=03/01/2018 -end=04/09/2018 #mm/dd/yyyy format

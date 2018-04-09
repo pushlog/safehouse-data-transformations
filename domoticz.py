@@ -18,9 +18,9 @@ data_save_time = 0
 
 parser = argparse.ArgumentParser(description="Pass inputs")
 parser.add_argument("-start","--start_date", required=True,
-    help="start date in MM/dd/yyy format, -start=MM/dd/yyy")
+    help="start date in MM/dd/yyyy format, -start=MM/dd/yyyy")
 parser.add_argument("-end","--end_date", required=True,
-    help="end date in MM/dd/yyy format, -end=MM/dd/yyy")
+    help="end date in MM/dd/yyyy format, -end=MM/dd/yyyy")
 args = vars(parser.parse_args())
 
 start_date = args["start_date"]
@@ -69,7 +69,6 @@ def fetch_data(start=start_date, end=end_date):
 
     if totalT == 1:
         df = json_normalize(d.ix[0, 'hits.hits'])
-        print(df.head())
     else:
 
 

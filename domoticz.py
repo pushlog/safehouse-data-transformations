@@ -1,4 +1,4 @@
-import subprocess
+import argparse, subprocess
 import json, os, time
 from pandas.io.json import json_normalize
 from summarizeDataFrame import summarizeDataset
@@ -16,18 +16,60 @@ elasticdatetimecolumn = '_id'
 total_row_count = 0
 data_save_time = 0
 
-def fetch_data():
+parser = argparse.ArgumentParser(description="Pass inputs")
+parser.add_argument("-start","--start_date", required=True,
+    help="start date in MM/dd/yyy format, -start=MM/dd/yyy")
+parser.add_argument("-end","--end_date", required=True,
+    help="end date in MM/dd/yyy format, -end=MM/dd/yyy")
+args = vars(parser.parse_args())
+
+start_date = args["start_date"]
+end_date = args["end_date"]
+
+
+
+
+def fetch_data(start=start_date, end=end_date):
     global total_row_count, data_save_time
-    data = se.search_elastic('domoticz*')
+
+    # body = {
+    # 	"query": {
+    #     	"range": {
+    #             "timestamp": {
+    #                 "gte": "01/01/2018",
+    #                 "lte": "09/04/2018",
+    #                 "format": "dd/MM/yyyy"
+    #             }
+    #         }
+    #     }
+    # }
+
+    body = {
+    	"query": {
+        	"range": {
+                "timestamp": {
+                    "gte": start, #"gte": "01/01/2018"
+                    "lte": end, #"lte": "04/09/2018",
+                    "format": "MM/dd/yyyy"
+                }
+            }
+        }
+    }
+
+    #data = se.search_elastic('domoticz*')
+    data = se.search_elastic(ix="domoticz*", query=body)
 
     # Store data to dataframe
     d = pd.DataFrame(json_normalize(data))
+
+
 
     # Number of transactions
     totalT=int(len(d))
 
     if totalT == 1:
         df = json_normalize(d.ix[0, 'hits.hits'])
+        print(df.head())
     else:
 
 
@@ -37,6 +79,8 @@ def fetch_data():
         for x in range( 0 , totalT - 1) :
             ed=json_normalize(d.ix[x, 'hits.hits'] )
             df = df.append(ed)
+
+
 
     # Garbarge collect dataframe
     del d
@@ -91,7 +135,7 @@ def fetch_data():
 start_time = time.time()
 while total_row_count <= 100000:
     print("Current row count: ", total_row_count)
-    fetch_data()
+    fetch_data(start_date, end_date)
 
 print("Total Time taken in (mins): ", (time.time() - start_time) / 60)
 print("Time to save data in (mins): ", data_save_time)

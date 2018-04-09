@@ -32,24 +32,12 @@ end_date = args["end_date"]
 def fetch_data(start=start_date, end=end_date):
     global total_row_count, data_save_time
 
-    # body = {
-    # 	"query": {
-    #     	"range": {
-    #             "timestamp": {
-    #                 "gte": "01/01/2018",
-    #                 "lte": "09/04/2018",
-    #                 "format": "dd/MM/yyyy"
-    #             }
-    #         }
-    #     }
-    # }
-
     body = {
     	"query": {
         	"range": {
                 "timestamp": {
-                    "gte": start, #"gte": "01/01/2018"
-                    "lte": end, #"lte": "04/09/2018",
+                    "gte": start, #"gte": "01/01/2018", format=MM/dd/yyyy
+                    "lte": end, #"lte": "04/09/2018", format=MM/dd/yyyy
                     "format": "MM/dd/yyyy"
                 }
             }

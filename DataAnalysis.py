@@ -1,6 +1,6 @@
 
 # Initialize Variables
-   
+
 # Datafile Name
 datafile = "domoticz.csv"
 
@@ -30,23 +30,23 @@ get_ipython().magic(u'matplotlib inline')
 df = pd.read_csv(datafile)
 
 
-   
-##### Handle for Large Data  #####    
+
+##### Handle for Large Data  #####
 
 # Row Count
 rowCount = len(df.index)
 
 
-# if dataset is larger than 100 thousands 
+# if dataset is larger than 100 thousands
 # records sample 100 thousand
 if rowCount > 10000:
 
    df1 = df.sample(n=10000)
-else:    
+else:
 
    df1 = df
 
-del df    
+del df
 
 ##################################
 
@@ -142,7 +142,7 @@ for i in range(len(xvector)):
 for i in range(len(xs)):
    # circles project documents (ie rows from csv) as points onto PC axes
    plt.plot(xs[i], ys[i], 'bo')
- 
+
 plt.figure(figsize=(15,15))
 plt.show()
 print("done")
@@ -151,6 +151,12 @@ print("done")
 #newdf.to_csv("pca1.csv" , index=False)
 
 
+def scatter_matrix(data, cols):
+    num_cols = data[cols].select_dtypes(exclude=["object","datetime64[ns]"]).columns.values.tolist()
+    data = data[num_cols]
+    plt.rcParams['figure.figsize'] = (20.0, 20.0)
+    scatter_matrix(trns[num_cols])
+    plt.show()
 
 
 
@@ -161,6 +167,3 @@ print("done")
 
 
 # In[ ]:
-
-
-

@@ -71,8 +71,10 @@ df['DateTime'] = df['DateTime'] - timedelta(hours=4)
 
 print('\n',"Total Transactions:",totalT ,'\n')
 print("Total Rows:",len(df) ,'\n')
-print(df.head())
+
+print(df.tail())
 #summarizeDataset(df)
+
 
 df.to_csv("ifttt.csv", index=False)
 #

@@ -119,7 +119,7 @@ else:
     sys.exit()
 
 # print(df3)
-
+print(df3['desired_output'].empty)
 # Create Dummy Variable for Dataset
 df5 = pd.get_dummies(df3, columns=names)
 df5.index = df[datetimename]
@@ -140,7 +140,7 @@ df6 = df5.groupby(['desired_output'], as_index=False)[list(df5)].nunique()
 # print(df5.head())
 # print(baseline)
 # print(array2[2])
-df5.to_csv("features-persondetect.csv", index=False)
+df3.to_csv("features-persondetect.csv", index=False)
 
 
 
@@ -148,7 +148,7 @@ print(baseline[['starttime', 'endtime']])
 
 # print(df5.groupby(['desired_output'])[list(df5)].count())
 #
-print(df6)
+print(df5.groupby(['desired_output'], as_index=False)[list(df5)].nunique())
 # print(list(df))
 
 

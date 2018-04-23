@@ -1,17 +1,17 @@
 # safehouse-data-transformations
 
 
-###Comebine 
+### Comebine 
 folder is my attempt to combine the datasources to one data set
 
-####Docker 
+#### Docker 
 is the containered used to run the algorithm
 
-####prod 
+#### prod 
 is everything you needed to run the algo
 
-####featuretools 
+#### featuretools 
 is work that we did to generate new features 
 
-####R 
+#### R 
 is r scripts we ran

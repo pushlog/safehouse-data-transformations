@@ -1,4 +1,4 @@
-import subprocess
+import argparse, subprocess
 import json, os, time
 from pandas.io.json import json_normalize
 from summarizeDataFrame import summarizeDataset
@@ -15,25 +15,50 @@ elasticdatetimecolumn = '_source.timestamp'
 
 # JSON Query
 
-body = {
-    "query": {
-        "range" : {
-            "timestamp" : {
-                "gte" : "now-4d",
-                 "lt" :  "now/d"
-            }
-        }
-    }
-}
+# body = {
+#     "query": {
+#         "range" : {
+#             "timestamp" : {
+#                 "gte" : "now-4d",
+#                  "lt" :  "now/d"
+#             }
+#         }
+#     }
+# }
+
+parser = argparse.ArgumentParser(description="Pass inputs")
+parser.add_argument("-start","--start_date", required=True,
+    help="start date in MM/dd/yyyy format, -start=MM/dd/yyyy")
+parser.add_argument("-end","--end_date", required=True,
+    help="end date in MM/dd/yyyy format, -end=MM/dd/yyyy")
+args = vars(parser.parse_args())
+
+start_date = args["start_date"]
+end_date = args["end_date"]
+
 
 #body = {"query": {"range": {"timestamp": {"gte": "now-1d/d", "lt": "now/d"}}}}
 
 total_row_count = 0
 
-def fetch_data():
+def fetch_data(start=start_date, end=end_date):
     global total_row_count
+
+    body = {
+    	"query": {
+        	"range": {
+                "timestamp": {
+                    "gte": start, #"gte": "01/01/2018", format=MM/dd/yyyy
+                    "lte": end, #"lte": "04/09/2018", format=MM/dd/yyyy
+                    "format": "MM/dd/yyyy"
+                }
+            }
+        }
+    }
+
+
     # Elasticsearch instance
-    data = se.search_elastic('gammarf' , body )
+    data = se.search_elastic('gammarf', query=body)
 
     # Store data to dataframe
     d = pd.DataFrame(json_normalize(data))
@@ -84,6 +109,6 @@ def fetch_data():
 start_time = time.time()
 while total_row_count <= 1000000:
     print("Current row count: ", total_row_count)
-    fetch_data()
+    fetch_data(start_date, end_date)
 
 print("Total Time taken in (mins): ", (time.time() - start_time) / 60)
